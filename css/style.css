@@ -1,0 +1,45 @@
+table{
+	width: auto;
+	height: auto;
+	float: left;
+}
+td{
+	margin: 0;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #333;
+	text-align: center;
+}
+#key{
+	position: fixed;
+	right: 10%;
+	bottom: 30%;
+	float: left;
+	width: 150px;
+	line-height: 500px;
+}
+/*方向键样式*/
+[id^=k-]{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #666;
+	font-size: 35px;
+	line-height: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	cursor: pointer;
+	background: #666666;
+}
+#k-top{
+	margin-left: 50px;
+}
+#k-right{
+	margin-left: 100px;
+}
+#k-left{
+	margin-top: -100px;
+}
+#k-botton{
+	margin-left:50px ;
+}
