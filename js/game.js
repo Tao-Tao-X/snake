@@ -109,7 +109,7 @@ window.onload=function(){
 		}	
 		chang();
 //		如果碰到自己游戏结束
-		for (var m=1;m<=snake.body.length;m++) {
+		for (var m=1;m<snake.body.length;m++) {
 			if(snake.body[0].row==snake.body[m].row && snake.body[0].col==snake.body[m].col){
 				alert('Game over你是个憨憨');
 				clearInterval(sport);
